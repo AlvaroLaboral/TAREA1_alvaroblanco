@@ -25,7 +25,7 @@ import modelo.Sesion;
 public class ClinicaFachada {
 
 	private static Path CREDENCIALES = Path.of("Recursos/credenciales.txt");
-	private static Path PROPIEDADES = Path.of("Recursos/application.properties");
+	private static Path PROPIEDADES = Path.of("Recursos/Test/application.properties");
 	private static Path CARPETA_ALERGIAS = Path.of("Recursos/alergias");
 
 	private Sesion sesion = new Sesion(null, "Invitado", Perfil.INVITADO);
